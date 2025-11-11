@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	border: 2px solid black;
+}
+
+main{
+	width: 90%;
+	background-color: rgb(221, 221, 255);
+	margin: 40px 20px 30px 30px;
+	padding: 20px 10px 30px 5px;
+	border: 5px solid green;
+}
+
+header{
+	padding: 20px 10px;
+}
+
+header p{
+	background-color: chartreuse;
+}
+
+section{
+	margin: 20px 0;
+}
+
+section p.parrafoUno{
+	background-color: crimson;
+}
+
+.parrafoUno{
+	background-color: aqua;
+}
+
+#parrafoSolo{
+	background-color: bisque;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	background-color: blue;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+}
